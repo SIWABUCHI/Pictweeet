@@ -1,1 +1,23 @@
-<p>HELLO WORLD</p>
+<body>
+  <div class = "header">
+    ブログサイト
+  <%= link_to '投稿機能','/articles/new' %>
+  </div>
+  <div class = "articles">
+    <% @articles.each do |article| %>
+    <div class = "article">
+      <div class = "title">
+    <p><%= article.title %></p>
+      </div>
+      <div class = "comment">
+    <p><%= image_tag article.image %></p>
+    <p><%= article.content %></p>
+      </div>
+    </div>
+     <% end %>
+ </div>
+ <div class = "footer">
+  終了
+ </div>
+</body>
+

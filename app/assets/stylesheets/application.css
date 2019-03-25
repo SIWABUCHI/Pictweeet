@@ -1,25 +1,35 @@
 .header {
-height: 200px;
-border: 1px solid black;
+height: 100px;
+font-family:serif;
+text-align:center;
 }
+
+.header1 {
+  font-size: 30px;
+  width: 300px;
+  margin:15px auto;
+}
+
+.header a{
+  width: 100px;
+  margin:0 auto;
+}
+
 .articles{
-height: 1200px;
-border: 1px solid black;
+min-height: 1200px;
+text-align: center;
 }
 .footer{
 height: 100px;
-border: 1px solid black;
+text-align: center;
 }
 .article{
-height:400px;
-border: 1px solid blue;
+min-height:400px;
+border: 1px solid black;
 }
 .title{
-height:100px;
-border: 1px solid red;
+height:50px;
 }
-
 .comment{
-height:300px;
-border:1px solid green;
+min-height:350px;
 }
